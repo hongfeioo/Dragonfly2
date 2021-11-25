@@ -56,7 +56,7 @@ Docker|1.12.0+
 
 ```sh
 docker run -d --name dfdaemon --restart=always -p 65000:65000 \
-    -p 65001:65001 -p 65002:65002 ${dfdaemonDockerImageId} daemon
+    -p 65001:65001 -p 65002:65002 ${dfdaemonDockerImageId}  
 ```
 
 dfget 部署完成之后，运行以下命令以检查 **dfdaemon** 是否正在运行，以及 `65000`, `65001` 和 `65002` 端口是否可用。
